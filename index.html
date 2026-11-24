@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Luca Istvan">
+<title>Home | The Lands Between</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="nav-wrap">
+    <a class="brand" href="index.html">AS <span>TERRAS</span> INTERMÉDIAS</a>
+    <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav>
+      <a class="active" href="index.html">Home</a>
+      <a href="historia.html">História</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="dicas.html">Dicas</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main class="home-main">
+  <section class="home-content">
+    <div class="game-area">
+      <p class="kicker">Elden Ring</p>
+      <h1>Duelo das Terras Intermédias</h1>
+      <p class="status">É a vez de Malenia</p>
+      <div class="tabuleiro">
+        <button class="celula" data-celula aria-label="Casa 1"></button>
+        <button class="celula" data-celula aria-label="Casa 2"></button>
+        <button class="celula" data-celula aria-label="Casa 3"></button>
+        <button class="celula" data-celula aria-label="Casa 4"></button>
+        <button class="celula" data-celula aria-label="Casa 5"></button>
+        <button class="celula" data-celula aria-label="Casa 6"></button>
+        <button class="celula" data-celula aria-label="Casa 7"></button>
+        <button class="celula" data-celula aria-label="Casa 8"></button>
+        <button class="celula" data-celula aria-label="Casa 9"></button>
+      </div>
+      <button id="reset-button" class="btn reset-button">Reiniciar partida</button>
+    </div>
+
+    <div class="character-showcase">
+      <div class="showcase-image">
+        <img id="character-image" src="img/malenia.jpg" alt="Malenia, Lâmina de Miquella">
+        <button class="slide-control prev" id="prev-character" aria-label="Personagem anterior">‹</button>
+        <button class="slide-control next" id="next-character" aria-label="Próximo personagem">›</button>
+      </div>
+      <div class="showcase-caption">
+        <p class="kicker">Lendas das Terras Intermédias</p>
+        <h2 id="character-name">Malenia</h2>
+        <p id="character-description">A Lâmina de Miquella, uma das guerreiras mais temidas das Terras Intermédias.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-about">
+    <h2>As Terras Intermédias</h2>
+    <p>Um mundo de batalhas, mistérios e personagens marcantes. Escolha seu lado no duelo e conheça mais sobre o universo de Elden Ring.</p>
+    <a class="btn" href="dicas.html">Conhecer mais</a>
+  </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
